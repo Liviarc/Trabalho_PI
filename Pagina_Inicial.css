@@ -1,0 +1,61 @@
+/* Home Page */
+
+body{
+    margin: 0;
+}
+
+.redirect{
+    width: 100%;
+    height: 100%;
+}
+.first_waves {
+  position:relative;
+  width: 100%;
+  height:700px;
+  min-height:100px;
+  max-height:350px;
+  background-color:#2F80ED;
+}
+.b_waves{
+    position:fixed;
+  width: 100%;
+ bottom: 0px;
+  min-height:100px;
+  max-height:350px;
+  background-color:#2F80ED;
+}
+
+.welcome{
+ position: absolute;
+ height: 900px;
+font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 52px;
+text-align: center;
+color: #20323D;
+}
+.title{
+    position: absolute;
+    bottom: 250px;
+   font-family: 'PT Sans Narrow';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 150px;
+   line-height: 52px;
+   text-align: center;
+   color:  #027fc9;  
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:400px;
+    color: #20323D;
+}
+
+img{
+width: 706px;
+height: 707px;
+}
